@@ -30,3 +30,28 @@ body{
     font-family: "Montserrat";
     font-weight: 700;
   }
+
+  * FEATURES */
+
+#features{
+      z-index:1;
+      background-color: var(--text-color);
+      position:relative;
+      padding:7%;
+}
+
+.feature-box{
+    text-align: center;
+    padding:2% 1%;
+}
+
+.icon {
+  color:var(--primary-bg-color);
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: var(--primary-bg-color);
+  transform: rotate(360deg);
+  transition:1s;
+}
